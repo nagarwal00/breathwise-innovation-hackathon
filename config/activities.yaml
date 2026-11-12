@@ -1,0 +1,229 @@
+activities:
+  # ── Category 1: Transit & Daily Commute ───────────────────────────────
+  morning_commute:
+    label: "Morning Work / Office Commute"
+    category_group: "transit"
+    category_group_label: "Transit & Commute"
+    default_duration_min: 45
+    default_usual_start: "08:30"
+    practical_window_start: "07:00"
+    practical_window_end: "11:00"
+    ventilation_rate_m3h: 1.4
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "Briefcase"
+    description: "Two-wheeler, walking, bus or metro transit during morning rush hour"
+
+  evening_commute:
+    label: "Evening Return Commute"
+    category_group: "transit"
+    category_group_label: "Transit & Commute"
+    default_duration_min: 45
+    default_usual_start: "18:00"
+    practical_window_start: "16:30"
+    practical_window_end: "21:00"
+    ventilation_rate_m3h: 1.4
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "Train"
+    description: "Evening return transit, avoiding dusk traffic-inversion convergence"
+
+  school_transit:
+    label: "School Run & Student Drop-off"
+    category_group: "transit"
+    category_group_label: "Transit & Commute"
+    default_duration_min: 30
+    default_usual_start: "07:30"
+    practical_window_start: "07:00"
+    practical_window_end: "09:30"
+    ventilation_rate_m3h: 1.3
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "GraduationCap"
+    description: "Morning school bus stop wait, walking or driving children to school"
+
+  grocery_errands:
+    label: "Market Shopping & Outdoor Errands"
+    category_group: "transit"
+    category_group_label: "Transit & Commute"
+    default_duration_min: 45
+    default_usual_start: "11:00"
+    practical_window_start: "09:30"
+    practical_window_end: "19:00"
+    ventilation_rate_m3h: 1.3
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "ShoppingBag"
+    description: "Neighborhood grocery shopping, pharmacy visits, and outdoor chores"
+
+  # ── Category 2: Fitness & Active Sports ───────────────────────────────
+  exercise_running:
+    label: "Outdoor Running & Jogging"
+    category_group: "fitness"
+    category_group_label: "Fitness & Sports"
+    default_duration_min: 60
+    default_usual_start: "06:30"
+    practical_window_start: "05:00"
+    practical_window_end: "21:00"
+    ventilation_rate_m3h: 3.2
+    threshold_key: "exercise_ok"
+    intensity: "vigorous"
+    icon: "Flame"
+    description: "High-cadence road or park running, sprint intervals, aerobic training"
+
+  exercise_cycling:
+    label: "Road Cycling & Bike Training"
+    category_group: "fitness"
+    category_group_label: "Fitness & Sports"
+    default_duration_min: 75
+    default_usual_start: "06:00"
+    practical_window_start: "05:00"
+    practical_window_end: "21:00"
+    ventilation_rate_m3h: 2.8
+    threshold_key: "exercise_ok"
+    intensity: "vigorous"
+    icon: "Bike"
+    description: "Road cycling, distance bike rides, sustained cardiovascular training"
+
+  brisk_walking:
+    label: "Brisk Walking & Health Stroll"
+    category_group: "fitness"
+    category_group_label: "Fitness & Sports"
+    default_duration_min: 45
+    default_usual_start: "07:00"
+    practical_window_start: "06:00"
+    practical_window_end: "20:30"
+    ventilation_rate_m3h: 1.6
+    threshold_key: "exercise_ok"
+    intensity: "moderate"
+    icon: "Footprints"
+    description: "Aerobic park walking, power walking for cardiovascular wellness"
+
+  outdoor_sports:
+    label: "Outdoor Team Sports (Cricket, Tennis, Football)"
+    category_group: "fitness"
+    category_group_label: "Fitness & Sports"
+    default_duration_min: 90
+    default_usual_start: "16:30"
+    practical_window_start: "15:30"
+    practical_window_end: "19:30"
+    ventilation_rate_m3h: 3.0
+    threshold_key: "exercise_ok"
+    intensity: "vigorous"
+    icon: "Trophy"
+    description: "Weekend cricket matches, tennis court practice, outdoor soccer"
+
+  # ── Category 3: Family & Recreation ──────────────────────────────────
+  kids_play:
+    label: "Children's Park & Playground Play"
+    category_group: "family"
+    category_group_label: "Family & Recreation"
+    default_duration_min: 60
+    default_usual_start: "16:30"
+    practical_window_start: "15:30"
+    practical_window_end: "18:30"
+    ventilation_rate_m3h: 1.8
+    threshold_key: "exercise_ok"
+    intensity: "moderate"
+    icon: "Baby"
+    description: "Playground equipment, tag, recess games, neighborhood park recreation"
+
+  dog_walking:
+    label: "Dog Walking & Pet Care"
+    category_group: "family"
+    category_group_label: "Family & Recreation"
+    default_duration_min: 30
+    default_usual_start: "07:00"
+    practical_window_start: "06:00"
+    practical_window_end: "21:30"
+    ventilation_rate_m3h: 1.4
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "Heart"
+    description: "Morning and evening neighborhood walks for family pets"
+
+  elderly_walk:
+    label: "Senior Citizen Gentle Garden Walk"
+    category_group: "family"
+    category_group_label: "Family & Recreation"
+    default_duration_min: 40
+    default_usual_start: "10:00"
+    practical_window_start: "09:30"
+    practical_window_end: "17:30"
+    ventilation_rate_m3h: 1.2
+    threshold_key: "exercise_ok"
+    intensity: "light"
+    icon: "Sun"
+    description: "Gentle mobility walks for seniors, avoiding cold dawn inversions"
+
+  # ── Category 4: Home & Livelihood ────────────────────────────────────
+  ventilate_home:
+    label: "Natural Home Cross-Ventilation"
+    category_group: "home_work"
+    category_group_label: "Home & Work"
+    default_duration_min: 30
+    default_usual_start: "13:00"
+    practical_window_start: "11:30"
+    practical_window_end: "16:00"
+    ventilation_rate_m3h: 0.6
+    threshold_key: "windows_open_ok"
+    intensity: "none"
+    icon: "Home"
+    description: "Opening windows and balconies during convective mixing to flush stale indoor air"
+
+  outdoor_work:
+    label: "Construction & Field Shift Work"
+    category_group: "home_work"
+    category_group_label: "Home & Work"
+    default_duration_min: 240
+    default_usual_start: "09:00"
+    practical_window_start: "08:00"
+    practical_window_end: "18:00"
+    ventilation_rate_m3h: 2.2
+    threshold_key: "light_ok"
+    intensity: "moderate"
+    icon: "HardHat"
+    description: "On-site construction, engineering inspection, utility maintenance shifts"
+
+  street_vending:
+    label: "Market Vending & Outdoor Duty"
+    category_group: "home_work"
+    category_group_label: "Home & Work"
+    default_duration_min: 180
+    default_usual_start: "10:00"
+    practical_window_start: "09:00"
+    practical_window_end: "20:00"
+    ventilation_rate_m3h: 1.5
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "Store"
+    description: "Street-level commercial stalls, food vending, outdoor counter duty"
+
+  # ── Legacy Aliases (Backwards Compatibility) ─────────────────────────
+  exercise:
+    label: "Outdoor Running & Jogging"
+    category_group: "fitness"
+    category_group_label: "Fitness & Sports"
+    default_duration_min: 60
+    default_usual_start: "06:30"
+    practical_window_start: "05:00"
+    practical_window_end: "21:00"
+    ventilation_rate_m3h: 3.2
+    threshold_key: "exercise_ok"
+    intensity: "vigorous"
+    icon: "Flame"
+    description: "Running, cycling, brisk jogging, outdoor sports"
+
+  commute:
+    label: "Morning Work / Office Commute"
+    category_group: "transit"
+    category_group_label: "Transit & Commute"
+    default_duration_min: 45
+    default_usual_start: "08:30"
+    practical_window_start: "07:00"
+    practical_window_end: "11:00"
+    ventilation_rate_m3h: 1.4
+    threshold_key: "light_ok"
+    intensity: "light"
+    icon: "Briefcase"
+    description: "Daily office and workplace transit"

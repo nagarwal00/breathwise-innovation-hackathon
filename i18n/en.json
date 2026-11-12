@@ -1,0 +1,18 @@
+{
+  "verdicts": {
+    "go": "Favourable air quality for your activity.",
+    "caution": "Moderate pollution level; consider lighter intensity.",
+    "mask": "Elevated particulate pollution; an N95/FFP2 mask is recommended.",
+    "avoid": "Unhealthy air conditions; move activity indoors if possible."
+  },
+  "advice": {
+    "skip_usual": "Skip your usual {usual_time} {activity}. The cleanest window today is {best_window}.",
+    "already_best": "Your usual {usual_time} window is already the best choice available today ({mean_pm25} µg/m³).",
+    "caution_intensity": "Air will still be {category}, so keep the pace light or shorten duration.",
+    "mask_required": "Wear a well-fitted N95/FFP2 mask if you need to be outdoors.",
+    "indoor_fallback": "Air quality remains severe throughout the day. Opt for indoor exercise, an indoor gym, or keep windows closed with air filtration running.",
+    "outdoor_worker_guidance": "Extended shift detected. Schedule mandatory rest breaks during peak pollution hours ({avoid_window}) and wear an N95 mask throughout."
+  },
+  "disclaimer": "General air quality guidance, not medical advice. Consult a healthcare provider for personalized medical recommendations."
+}
+

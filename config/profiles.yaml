@@ -1,0 +1,70 @@
+base_thresholds:
+  exercise_ok: 60
+  light_ok: 90
+  windows_open_ok: 60
+  mask_advised: 120
+  avoid: 250
+
+profiles:
+  healthy_adult:
+    label: "Healthy Adult"
+    factor: 1.0
+    description: "General adult population with no pre-existing cardiorespiratory conditions."
+  outdoor_worker:
+    label: "Outdoor Worker"
+    factor: 1.0
+    description: "Extended outdoor occupational exposure (shifts up to 8 hours)."
+    max_duration_hours: 8
+  pregnant:
+    label: "Pregnant"
+    factor: 0.75
+    description: "Expectant mothers with increased physiological sensitivity."
+  child:
+    label: "Child"
+    factor: 0.75
+    description: "Higher ventilation per body mass and developing lung function."
+  elderly:
+    label: "Elderly"
+    factor: 0.75
+    description: "Seniors (65+) with heightened cardiovascular vulnerability."
+  respiratory_cardiac:
+    label: "Respiratory / Cardiac"
+    factor: 0.5
+    description: "Individuals with asthma, COPD, heart disease, or chronic conditions."
+
+cpcb_categories:
+  good:
+    min: 0
+    max: 30
+    label: "Good"
+    color: "#2E9E4F"
+  satisfactory:
+    min: 31
+    max: 60
+    label: "Satisfactory"
+    color: "#8BC34A"
+  moderate:
+    min: 61
+    max: 90
+    label: "Moderate"
+    color: "#F2C94C"
+  poor:
+    min: 91
+    max: 120
+    label: "Poor"
+    color: "#F2994A"
+  very_poor:
+    min: 121
+    max: 250
+    label: "Very Poor"
+    color: "#E5484D"
+  severe:
+    min: 251
+    max: 9999
+    label: "Severe"
+    color: "#8E1B2C"
+
+who_reference:
+  pm25_24h_guideline: 15.0
+  description: "WHO 2021 24-hour PM2.5 air quality guideline"
+
