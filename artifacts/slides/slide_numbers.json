@@ -1,0 +1,69 @@
+{
+  "headline": {
+    "delhi_mean_exposure_reduction_pct": 42.6,
+    "all_cities_mean_exposure_reduction_pct": 28.3,
+    "pct_days_improved_delhi": 96.7,
+    "test_period": "2026-10-15 to 2026-11-13"
+  },
+  "model": {
+    "mae_model": 17.17,
+    "mae_persistence": 26.36,
+    "mae_seasonal_naive": 18.69,
+    "mae_improvement_vs_best_baseline_pct": 8.1,
+    "interval_coverage_pct": 77.3,
+    "training_hours": 13824,
+    "cities_in_training": 8
+  },
+  "product": {
+    "profiles": 6,
+    "activities": 4,
+    "preset_cities": 8,
+    "api_endpoints": 8
+  },
+  "data": {
+    "sources": [
+      "Open-Meteo Air Quality (Copernicus CAMS)",
+      "Open-Meteo Weather Forecast (ECMWF IFS)",
+      "Open-Meteo Geocoding (OpenStreetMap)"
+    ],
+    "needs_api_key": false,
+    "offline_cache_fixtures": true
+  },
+  "city_summaries": {
+    "delhi": {
+      "name": "Delhi",
+      "mean_reduction_pct": 42.6,
+      "median_reduction_pct": 42.9,
+      "days_improved_pct": 96.7,
+      "oracle_mean_reduction_pct": 47.3
+    },
+    "lucknow": {
+      "name": "Lucknow",
+      "mean_reduction_pct": 39.0,
+      "median_reduction_pct": 48.6,
+      "days_improved_pct": 83.3,
+      "oracle_mean_reduction_pct": 50.5
+    },
+    "kolkata": {
+      "name": "Kolkata",
+      "mean_reduction_pct": 25.9,
+      "median_reduction_pct": 24.5,
+      "days_improved_pct": 86.7,
+      "oracle_mean_reduction_pct": 32.9
+    },
+    "mumbai": {
+      "name": "Mumbai",
+      "mean_reduction_pct": 9.0,
+      "median_reduction_pct": 4.2,
+      "days_improved_pct": 60.0,
+      "oracle_mean_reduction_pct": 13.2
+    },
+    "bengaluru": {
+      "name": "Bengaluru",
+      "mean_reduction_pct": 25.2,
+      "median_reduction_pct": 22.2,
+      "days_improved_pct": 80.0,
+      "oracle_mean_reduction_pct": 40.4
+    }
+  }
+}

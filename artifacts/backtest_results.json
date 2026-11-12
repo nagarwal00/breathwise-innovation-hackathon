@@ -1,0 +1,1596 @@
+{
+  "generated_at": "2026-11-12T13:38:04.095701",
+  "test_period": {
+    "start": "2026-10-15",
+    "end": "2026-11-13"
+  },
+  "cities": {
+    "delhi": {
+      "city_name": "Delhi",
+      "days": 30,
+      "mean_exposure_reduction_pct": 42.6,
+      "median_exposure_reduction_pct": 42.9,
+      "pct_days_improved": 96.7,
+      "pct_days_avoid": 0.0,
+      "oracle_mean_reduction_pct": 47.3,
+      "mae": {
+        "model": 25.58,
+        "persistence": 35.74,
+        "seasonal_naive": 27.31
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-15",
+          "usual_pm25": 84.4,
+          "recommended_pm25": 60.9,
+          "oracle_pm25": 40.2,
+          "reduction_pct": 27.8,
+          "oracle_reduction_pct": 52.4,
+          "recommended_start": "12:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-16",
+          "usual_pm25": 64.8,
+          "recommended_pm25": 61.2,
+          "oracle_pm25": 58.8,
+          "reduction_pct": 5.6,
+          "oracle_reduction_pct": 9.3,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-17",
+          "usual_pm25": 166.4,
+          "recommended_pm25": 31.1,
+          "oracle_pm25": 50.2,
+          "reduction_pct": 81.3,
+          "oracle_reduction_pct": 69.8,
+          "recommended_start": "10:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-18",
+          "usual_pm25": 70.8,
+          "recommended_pm25": 41.1,
+          "oracle_pm25": 28.8,
+          "reduction_pct": 41.9,
+          "oracle_reduction_pct": 59.3,
+          "recommended_start": "16:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-19",
+          "usual_pm25": 68.8,
+          "recommended_pm25": 42.0,
+          "oracle_pm25": 36.3,
+          "reduction_pct": 39.0,
+          "oracle_reduction_pct": 47.2,
+          "recommended_start": "12:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-20",
+          "usual_pm25": 82.8,
+          "recommended_pm25": 46.7,
+          "oracle_pm25": 46.6,
+          "reduction_pct": 43.6,
+          "oracle_reduction_pct": 43.7,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-21",
+          "usual_pm25": 119.6,
+          "recommended_pm25": 55.4,
+          "oracle_pm25": 65.9,
+          "reduction_pct": 53.7,
+          "oracle_reduction_pct": 44.9,
+          "recommended_start": "11:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-22",
+          "usual_pm25": 118.8,
+          "recommended_pm25": 71.3,
+          "oracle_pm25": 52.6,
+          "reduction_pct": 39.9,
+          "oracle_reduction_pct": 55.7,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-23",
+          "usual_pm25": 109.3,
+          "recommended_pm25": 62.0,
+          "oracle_pm25": 70.1,
+          "reduction_pct": 43.2,
+          "oracle_reduction_pct": 35.9,
+          "recommended_start": "14:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-24",
+          "usual_pm25": 154.6,
+          "recommended_pm25": 41.2,
+          "oracle_pm25": 48.5,
+          "reduction_pct": 73.4,
+          "oracle_reduction_pct": 68.6,
+          "recommended_start": "16:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-25",
+          "usual_pm25": 41.4,
+          "recommended_pm25": 74.2,
+          "oracle_pm25": 22.8,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 44.9,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-26",
+          "usual_pm25": 80.5,
+          "recommended_pm25": 43.0,
+          "oracle_pm25": 45.9,
+          "reduction_pct": 46.6,
+          "oracle_reduction_pct": 43.0,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-27",
+          "usual_pm25": 102.2,
+          "recommended_pm25": 39.5,
+          "oracle_pm25": 37.3,
+          "reduction_pct": 61.4,
+          "oracle_reduction_pct": 63.5,
+          "recommended_start": "12:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-28",
+          "usual_pm25": 104.3,
+          "recommended_pm25": 37.3,
+          "oracle_pm25": 36.3,
+          "reduction_pct": 64.2,
+          "oracle_reduction_pct": 65.2,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-29",
+          "usual_pm25": 63.6,
+          "recommended_pm25": 16.8,
+          "oracle_pm25": 15.7,
+          "reduction_pct": 73.7,
+          "oracle_reduction_pct": 75.3,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-30",
+          "usual_pm25": 21.0,
+          "recommended_pm25": 17.1,
+          "oracle_pm25": 14.9,
+          "reduction_pct": 18.1,
+          "oracle_reduction_pct": 28.9,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-31",
+          "usual_pm25": 38.8,
+          "recommended_pm25": 37.5,
+          "oracle_pm25": 28.1,
+          "reduction_pct": 3.2,
+          "oracle_reduction_pct": 27.5,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-01",
+          "usual_pm25": 64.8,
+          "recommended_pm25": 59.9,
+          "oracle_pm25": 57.9,
+          "reduction_pct": 7.6,
+          "oracle_reduction_pct": 10.7,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-02",
+          "usual_pm25": 130.8,
+          "recommended_pm25": 97.9,
+          "oracle_pm25": 73.8,
+          "reduction_pct": 25.2,
+          "oracle_reduction_pct": 43.6,
+          "recommended_start": "10:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-03",
+          "usual_pm25": 128.6,
+          "recommended_pm25": 89.4,
+          "oracle_pm25": 83.8,
+          "reduction_pct": 30.4,
+          "oracle_reduction_pct": 34.8,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-04",
+          "usual_pm25": 165.6,
+          "recommended_pm25": 97.1,
+          "oracle_pm25": 96.9,
+          "reduction_pct": 41.3,
+          "oracle_reduction_pct": 41.5,
+          "recommended_start": "13:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-05",
+          "usual_pm25": 184.1,
+          "recommended_pm25": 86.0,
+          "oracle_pm25": 85.4,
+          "reduction_pct": 53.3,
+          "oracle_reduction_pct": 53.6,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-06",
+          "usual_pm25": 159.2,
+          "recommended_pm25": 54.2,
+          "oracle_pm25": 82.2,
+          "reduction_pct": 66.0,
+          "oracle_reduction_pct": 48.4,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-07",
+          "usual_pm25": 93.4,
+          "recommended_pm25": 49.5,
+          "oracle_pm25": 48.7,
+          "reduction_pct": 47.0,
+          "oracle_reduction_pct": 47.9,
+          "recommended_start": "14:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-08",
+          "usual_pm25": 120.0,
+          "recommended_pm25": 69.0,
+          "oracle_pm25": 68.5,
+          "reduction_pct": 42.6,
+          "oracle_reduction_pct": 42.9,
+          "recommended_start": "13:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-09",
+          "usual_pm25": 99.8,
+          "recommended_pm25": 74.2,
+          "oracle_pm25": 65.2,
+          "reduction_pct": 25.7,
+          "oracle_reduction_pct": 34.6,
+          "recommended_start": "13:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-10",
+          "usual_pm25": 153.9,
+          "recommended_pm25": 82.2,
+          "oracle_pm25": 61.0,
+          "reduction_pct": 46.6,
+          "oracle_reduction_pct": 60.4,
+          "recommended_start": "12:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-11",
+          "usual_pm25": 131.8,
+          "recommended_pm25": 84.5,
+          "oracle_pm25": 74.0,
+          "reduction_pct": 35.8,
+          "oracle_reduction_pct": 43.9,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-12",
+          "usual_pm25": 197.9,
+          "recommended_pm25": 75.0,
+          "oracle_pm25": 95.5,
+          "reduction_pct": 62.1,
+          "oracle_reduction_pct": 51.7,
+          "recommended_start": "13:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-13",
+          "usual_pm25": 220.2,
+          "recommended_pm25": 45.8,
+          "oracle_pm25": 69.6,
+          "reduction_pct": 79.2,
+          "oracle_reduction_pct": 68.4,
+          "recommended_start": "14:00",
+          "verdict": "caution"
+        }
+      ]
+    },
+    "lucknow": {
+      "city_name": "Lucknow",
+      "days": 30,
+      "mean_exposure_reduction_pct": 39.0,
+      "median_exposure_reduction_pct": 48.6,
+      "pct_days_improved": 83.3,
+      "pct_days_avoid": 0.0,
+      "oracle_mean_reduction_pct": 50.5,
+      "mae": {
+        "model": 21.52,
+        "persistence": 34.78,
+        "seasonal_naive": 24.42
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-15",
+          "usual_pm25": 57.3,
+          "recommended_pm25": 47.8,
+          "oracle_pm25": 24.7,
+          "reduction_pct": 16.7,
+          "oracle_reduction_pct": 56.9,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-16",
+          "usual_pm25": 94.7,
+          "recommended_pm25": 49.0,
+          "oracle_pm25": 47.3,
+          "reduction_pct": 48.2,
+          "oracle_reduction_pct": 50.0,
+          "recommended_start": "13:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-17",
+          "usual_pm25": 71.6,
+          "recommended_pm25": 34.7,
+          "oracle_pm25": 44.4,
+          "reduction_pct": 51.5,
+          "oracle_reduction_pct": 38.0,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-18",
+          "usual_pm25": 88.2,
+          "recommended_pm25": 34.7,
+          "oracle_pm25": 29.0,
+          "reduction_pct": 60.6,
+          "oracle_reduction_pct": 67.1,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-19",
+          "usual_pm25": 48.6,
+          "recommended_pm25": 42.9,
+          "oracle_pm25": 28.7,
+          "reduction_pct": 11.7,
+          "oracle_reduction_pct": 40.9,
+          "recommended_start": "17:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-20",
+          "usual_pm25": 41.1,
+          "recommended_pm25": 64.5,
+          "oracle_pm25": 39.7,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 3.4,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-21",
+          "usual_pm25": 96.2,
+          "recommended_pm25": 78.3,
+          "oracle_pm25": 43.2,
+          "reduction_pct": 18.5,
+          "oracle_reduction_pct": 55.1,
+          "recommended_start": "08:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-22",
+          "usual_pm25": 115.7,
+          "recommended_pm25": 39.5,
+          "oracle_pm25": 40.2,
+          "reduction_pct": 65.9,
+          "oracle_reduction_pct": 65.3,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-23",
+          "usual_pm25": 111.3,
+          "recommended_pm25": 39.5,
+          "oracle_pm25": 37.7,
+          "reduction_pct": 64.6,
+          "oracle_reduction_pct": 66.1,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-24",
+          "usual_pm25": 141.6,
+          "recommended_pm25": 52.4,
+          "oracle_pm25": 54.8,
+          "reduction_pct": 63.0,
+          "oracle_reduction_pct": 61.3,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-25",
+          "usual_pm25": 124.6,
+          "recommended_pm25": 51.2,
+          "oracle_pm25": 50.6,
+          "reduction_pct": 58.9,
+          "oracle_reduction_pct": 59.4,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-26",
+          "usual_pm25": 101.4,
+          "recommended_pm25": 35.1,
+          "oracle_pm25": 33.9,
+          "reduction_pct": 65.3,
+          "oracle_reduction_pct": 66.6,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-27",
+          "usual_pm25": 100.9,
+          "recommended_pm25": 35.1,
+          "oracle_pm25": 33.8,
+          "reduction_pct": 65.2,
+          "oracle_reduction_pct": 66.5,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-28",
+          "usual_pm25": 54.3,
+          "recommended_pm25": 31.7,
+          "oracle_pm25": 19.6,
+          "reduction_pct": 41.7,
+          "oracle_reduction_pct": 63.9,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-29",
+          "usual_pm25": 32.3,
+          "recommended_pm25": 11.0,
+          "oracle_pm25": 14.1,
+          "reduction_pct": 65.9,
+          "oracle_reduction_pct": 56.3,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-30",
+          "usual_pm25": 10.7,
+          "recommended_pm25": 13.2,
+          "oracle_pm25": 7.5,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 29.6,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-31",
+          "usual_pm25": 13.8,
+          "recommended_pm25": 13.8,
+          "oracle_pm25": 7.8,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 43.5,
+          "recommended_start": "07:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-01",
+          "usual_pm25": 25.1,
+          "recommended_pm25": 13.9,
+          "oracle_pm25": 13.2,
+          "reduction_pct": 44.5,
+          "oracle_reduction_pct": 47.3,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-02",
+          "usual_pm25": 59.2,
+          "recommended_pm25": 100.7,
+          "oracle_pm25": 32.5,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 45.1,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-03",
+          "usual_pm25": 134.4,
+          "recommended_pm25": 98.0,
+          "oracle_pm25": 64.0,
+          "reduction_pct": 27.1,
+          "oracle_reduction_pct": 52.4,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-04",
+          "usual_pm25": 100.2,
+          "recommended_pm25": 113.2,
+          "oracle_pm25": 81.7,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 18.5,
+          "recommended_start": "17:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-05",
+          "usual_pm25": 165.6,
+          "recommended_pm25": 80.9,
+          "oracle_pm25": 98.0,
+          "reduction_pct": 51.1,
+          "oracle_reduction_pct": 40.8,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-06",
+          "usual_pm25": 181.3,
+          "recommended_pm25": 47.2,
+          "oracle_pm25": 79.4,
+          "reduction_pct": 73.9,
+          "oracle_reduction_pct": 56.2,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-07",
+          "usual_pm25": 104.9,
+          "recommended_pm25": 89.5,
+          "oracle_pm25": 46.7,
+          "reduction_pct": 14.7,
+          "oracle_reduction_pct": 55.5,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-08",
+          "usual_pm25": 186.1,
+          "recommended_pm25": 89.5,
+          "oracle_pm25": 84.3,
+          "reduction_pct": 51.9,
+          "oracle_reduction_pct": 54.7,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-09",
+          "usual_pm25": 110.9,
+          "recommended_pm25": 56.6,
+          "oracle_pm25": 37.4,
+          "reduction_pct": 49.0,
+          "oracle_reduction_pct": 66.3,
+          "recommended_start": "17:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-10",
+          "usual_pm25": 110.7,
+          "recommended_pm25": 39.6,
+          "oracle_pm25": 37.3,
+          "reduction_pct": 64.2,
+          "oracle_reduction_pct": 66.3,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-11",
+          "usual_pm25": 112.2,
+          "recommended_pm25": 43.2,
+          "oracle_pm25": 40.7,
+          "reduction_pct": 61.5,
+          "oracle_reduction_pct": 63.7,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-12",
+          "usual_pm25": 115.8,
+          "recommended_pm25": 97.7,
+          "oracle_pm25": 71.0,
+          "reduction_pct": 15.7,
+          "oracle_reduction_pct": 38.7,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-13",
+          "usual_pm25": 121.1,
+          "recommended_pm25": 97.7,
+          "oracle_pm25": 96.6,
+          "reduction_pct": 19.4,
+          "oracle_reduction_pct": 20.2,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        }
+      ]
+    },
+    "kolkata": {
+      "city_name": "Kolkata",
+      "days": 30,
+      "mean_exposure_reduction_pct": 25.9,
+      "median_exposure_reduction_pct": 24.5,
+      "pct_days_improved": 86.7,
+      "pct_days_avoid": 0.0,
+      "oracle_mean_reduction_pct": 32.9,
+      "mae": {
+        "model": 18.11,
+        "persistence": 19.11,
+        "seasonal_naive": 20.16
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-15",
+          "usual_pm25": 36.7,
+          "recommended_pm25": 34.0,
+          "oracle_pm25": 29.8,
+          "reduction_pct": 7.5,
+          "oracle_reduction_pct": 18.8,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-16",
+          "usual_pm25": 78.8,
+          "recommended_pm25": 59.2,
+          "oracle_pm25": 41.6,
+          "reduction_pct": 24.9,
+          "oracle_reduction_pct": 47.2,
+          "recommended_start": "12:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-17",
+          "usual_pm25": 60.6,
+          "recommended_pm25": 77.6,
+          "oracle_pm25": 46.8,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 22.8,
+          "recommended_start": "17:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-18",
+          "usual_pm25": 101.6,
+          "recommended_pm25": 42.7,
+          "oracle_pm25": 75.9,
+          "reduction_pct": 58.0,
+          "oracle_reduction_pct": 25.3,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-19",
+          "usual_pm25": 50.9,
+          "recommended_pm25": 70.5,
+          "oracle_pm25": 42.6,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 16.3,
+          "recommended_start": "05:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-20",
+          "usual_pm25": 64.9,
+          "recommended_pm25": 53.5,
+          "oracle_pm25": 53.0,
+          "reduction_pct": 17.6,
+          "oracle_reduction_pct": 18.4,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-21",
+          "usual_pm25": 71.9,
+          "recommended_pm25": 39.6,
+          "oracle_pm25": 50.5,
+          "reduction_pct": 45.0,
+          "oracle_reduction_pct": 29.8,
+          "recommended_start": "11:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-22",
+          "usual_pm25": 54.1,
+          "recommended_pm25": 39.6,
+          "oracle_pm25": 39.3,
+          "reduction_pct": 26.9,
+          "oracle_reduction_pct": 27.4,
+          "recommended_start": "11:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-23",
+          "usual_pm25": 80.0,
+          "recommended_pm25": 69.6,
+          "oracle_pm25": 70.1,
+          "reduction_pct": 13.0,
+          "oracle_reduction_pct": 12.4,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-24",
+          "usual_pm25": 101.0,
+          "recommended_pm25": 39.5,
+          "oracle_pm25": 65.0,
+          "reduction_pct": 60.9,
+          "oracle_reduction_pct": 35.6,
+          "recommended_start": "09:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-25",
+          "usual_pm25": 55.6,
+          "recommended_pm25": 31.4,
+          "oracle_pm25": 37.6,
+          "reduction_pct": 43.6,
+          "oracle_reduction_pct": 32.4,
+          "recommended_start": "05:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-26",
+          "usual_pm25": 33.5,
+          "recommended_pm25": 29.9,
+          "oracle_pm25": 21.6,
+          "reduction_pct": 10.7,
+          "oracle_reduction_pct": 35.5,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-27",
+          "usual_pm25": 31.8,
+          "recommended_pm25": 15.8,
+          "oracle_pm25": 14.9,
+          "reduction_pct": 50.3,
+          "oracle_reduction_pct": 53.1,
+          "recommended_start": "17:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-28",
+          "usual_pm25": 26.1,
+          "recommended_pm25": 15.8,
+          "oracle_pm25": 12.6,
+          "reduction_pct": 39.3,
+          "oracle_reduction_pct": 51.6,
+          "recommended_start": "17:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-29",
+          "usual_pm25": 13.5,
+          "recommended_pm25": 10.2,
+          "oracle_pm25": 8.8,
+          "reduction_pct": 24.1,
+          "oracle_reduction_pct": 34.8,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-30",
+          "usual_pm25": 14.3,
+          "recommended_pm25": 8.6,
+          "oracle_pm25": 8.3,
+          "reduction_pct": 40.1,
+          "oracle_reduction_pct": 42.2,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-31",
+          "usual_pm25": 20.1,
+          "recommended_pm25": 11.5,
+          "oracle_pm25": 9.2,
+          "reduction_pct": 42.9,
+          "oracle_reduction_pct": 54.3,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-01",
+          "usual_pm25": 26.0,
+          "recommended_pm25": 27.7,
+          "oracle_pm25": 19.1,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 26.5,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-02",
+          "usual_pm25": 74.9,
+          "recommended_pm25": 64.0,
+          "oracle_pm25": 48.3,
+          "reduction_pct": 14.5,
+          "oracle_reduction_pct": 35.5,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-03",
+          "usual_pm25": 66.8,
+          "recommended_pm25": 62.2,
+          "oracle_pm25": 56.1,
+          "reduction_pct": 6.7,
+          "oracle_reduction_pct": 16.0,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-04",
+          "usual_pm25": 73.0,
+          "recommended_pm25": 62.2,
+          "oracle_pm25": 53.4,
+          "reduction_pct": 14.7,
+          "oracle_reduction_pct": 26.8,
+          "recommended_start": "11:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-05",
+          "usual_pm25": 107.6,
+          "recommended_pm25": 107.1,
+          "oracle_pm25": 83.4,
+          "reduction_pct": 0.5,
+          "oracle_reduction_pct": 22.5,
+          "recommended_start": "15:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-06",
+          "usual_pm25": 109.0,
+          "recommended_pm25": 111.2,
+          "oracle_pm25": 96.9,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 11.1,
+          "recommended_start": "10:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-07",
+          "usual_pm25": 130.8,
+          "recommended_pm25": 80.9,
+          "oracle_pm25": 102.4,
+          "reduction_pct": 38.2,
+          "oracle_reduction_pct": 21.7,
+          "recommended_start": "09:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-08",
+          "usual_pm25": 126.4,
+          "recommended_pm25": 58.3,
+          "oracle_pm25": 55.2,
+          "reduction_pct": 53.9,
+          "oracle_reduction_pct": 56.3,
+          "recommended_start": "12:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-09",
+          "usual_pm25": 74.0,
+          "recommended_pm25": 37.5,
+          "oracle_pm25": 38.4,
+          "reduction_pct": 49.2,
+          "oracle_reduction_pct": 48.1,
+          "recommended_start": "14:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-11-10",
+          "usual_pm25": 40.7,
+          "recommended_pm25": 36.0,
+          "oracle_pm25": 28.2,
+          "reduction_pct": 11.3,
+          "oracle_reduction_pct": 30.6,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-11",
+          "usual_pm25": 39.5,
+          "recommended_pm25": 29.6,
+          "oracle_pm25": 23.3,
+          "reduction_pct": 24.9,
+          "oracle_reduction_pct": 41.0,
+          "recommended_start": "09:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-12",
+          "usual_pm25": 44.8,
+          "recommended_pm25": 41.3,
+          "oracle_pm25": 27.5,
+          "reduction_pct": 7.8,
+          "oracle_reduction_pct": 38.6,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-13",
+          "usual_pm25": 87.0,
+          "recommended_pm25": 44.2,
+          "oracle_pm25": 40.9,
+          "reduction_pct": 49.1,
+          "oracle_reduction_pct": 53.0,
+          "recommended_start": "12:00",
+          "verdict": "go"
+        }
+      ]
+    },
+    "mumbai": {
+      "city_name": "Mumbai",
+      "days": 30,
+      "mean_exposure_reduction_pct": 9.0,
+      "median_exposure_reduction_pct": 4.2,
+      "pct_days_improved": 60.0,
+      "pct_days_avoid": 0.0,
+      "oracle_mean_reduction_pct": 13.2,
+      "mae": {
+        "model": 12.78,
+        "persistence": 15.4,
+        "seasonal_naive": 13.93
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-15",
+          "usual_pm25": 44.9,
+          "recommended_pm25": 40.5,
+          "oracle_pm25": 39.1,
+          "reduction_pct": 9.6,
+          "oracle_reduction_pct": 12.8,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-16",
+          "usual_pm25": 72.2,
+          "recommended_pm25": 75.8,
+          "oracle_pm25": 70.1,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 2.8,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-17",
+          "usual_pm25": 76.2,
+          "recommended_pm25": 98.0,
+          "oracle_pm25": 75.2,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 1.4,
+          "recommended_start": "06:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-18",
+          "usual_pm25": 95.2,
+          "recommended_pm25": 108.2,
+          "oracle_pm25": 75.2,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 21.0,
+          "recommended_start": "07:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-19",
+          "usual_pm25": 108.2,
+          "recommended_pm25": 66.6,
+          "oracle_pm25": 68.0,
+          "reduction_pct": 38.4,
+          "oracle_reduction_pct": 37.1,
+          "recommended_start": "21:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-20",
+          "usual_pm25": 70.1,
+          "recommended_pm25": 75.2,
+          "oracle_pm25": 66.4,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 5.2,
+          "recommended_start": "21:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-21",
+          "usual_pm25": 71.0,
+          "recommended_pm25": 70.9,
+          "oracle_pm25": 63.1,
+          "reduction_pct": 0.1,
+          "oracle_reduction_pct": 11.1,
+          "recommended_start": "06:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-22",
+          "usual_pm25": 60.2,
+          "recommended_pm25": 100.0,
+          "oracle_pm25": 58.6,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 2.7,
+          "recommended_start": "05:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-23",
+          "usual_pm25": 76.3,
+          "recommended_pm25": 102.5,
+          "oracle_pm25": 75.4,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 1.2,
+          "recommended_start": "06:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-24",
+          "usual_pm25": 104.7,
+          "recommended_pm25": 83.7,
+          "oracle_pm25": 74.5,
+          "reduction_pct": 20.0,
+          "oracle_reduction_pct": 28.8,
+          "recommended_start": "07:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-25",
+          "usual_pm25": 83.7,
+          "recommended_pm25": 61.0,
+          "oracle_pm25": 60.5,
+          "reduction_pct": 27.1,
+          "oracle_reduction_pct": 27.7,
+          "recommended_start": "21:00",
+          "verdict": "caution"
+        },
+        {
+          "date": "2026-10-26",
+          "usual_pm25": 52.1,
+          "recommended_pm25": 38.9,
+          "oracle_pm25": 49.0,
+          "reduction_pct": 25.3,
+          "oracle_reduction_pct": 6.0,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-27",
+          "usual_pm25": 38.7,
+          "recommended_pm25": 24.5,
+          "oracle_pm25": 37.4,
+          "reduction_pct": 36.6,
+          "oracle_reduction_pct": 3.4,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-28",
+          "usual_pm25": 29.0,
+          "recommended_pm25": 33.3,
+          "oracle_pm25": 24.4,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 15.9,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-29",
+          "usual_pm25": 39.8,
+          "recommended_pm25": 35.8,
+          "oracle_pm25": 32.6,
+          "reduction_pct": 10.1,
+          "oracle_reduction_pct": 18.1,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-30",
+          "usual_pm25": 43.8,
+          "recommended_pm25": 41.8,
+          "oracle_pm25": 36.1,
+          "reduction_pct": 4.5,
+          "oracle_reduction_pct": 17.5,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-31",
+          "usual_pm25": 43.4,
+          "recommended_pm25": 37.3,
+          "oracle_pm25": 40.4,
+          "reduction_pct": 13.9,
+          "oracle_reduction_pct": 6.9,
+          "recommended_start": "18:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-01",
+          "usual_pm25": 35.6,
+          "recommended_pm25": 41.8,
+          "oracle_pm25": 28.0,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 21.3,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-02",
+          "usual_pm25": 47.4,
+          "recommended_pm25": 41.2,
+          "oracle_pm25": 40.4,
+          "reduction_pct": 13.2,
+          "oracle_reduction_pct": 14.8,
+          "recommended_start": "21:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-03",
+          "usual_pm25": 45.6,
+          "recommended_pm25": 41.6,
+          "oracle_pm25": 38.3,
+          "reduction_pct": 8.9,
+          "oracle_reduction_pct": 16.1,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-04",
+          "usual_pm25": 58.7,
+          "recommended_pm25": 56.5,
+          "oracle_pm25": 52.5,
+          "reduction_pct": 3.8,
+          "oracle_reduction_pct": 10.5,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-05",
+          "usual_pm25": 44.0,
+          "recommended_pm25": 42.2,
+          "oracle_pm25": 39.1,
+          "reduction_pct": 4.0,
+          "oracle_reduction_pct": 11.1,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-06",
+          "usual_pm25": 41.0,
+          "recommended_pm25": 42.2,
+          "oracle_pm25": 38.1,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 7.2,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-07",
+          "usual_pm25": 43.0,
+          "recommended_pm25": 51.0,
+          "oracle_pm25": 41.7,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 2.9,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-08",
+          "usual_pm25": 51.8,
+          "recommended_pm25": 37.7,
+          "oracle_pm25": 49.1,
+          "reduction_pct": 27.3,
+          "oracle_reduction_pct": 5.3,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-09",
+          "usual_pm25": 43.3,
+          "recommended_pm25": 46.5,
+          "oracle_pm25": 34.6,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 20.1,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-10",
+          "usual_pm25": 51.2,
+          "recommended_pm25": 47.9,
+          "oracle_pm25": 42.6,
+          "reduction_pct": 6.5,
+          "oracle_reduction_pct": 16.9,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-11",
+          "usual_pm25": 44.6,
+          "recommended_pm25": 38.5,
+          "oracle_pm25": 38.3,
+          "reduction_pct": 13.6,
+          "oracle_reduction_pct": 14.1,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-12",
+          "usual_pm25": 43.8,
+          "recommended_pm25": 57.5,
+          "oracle_pm25": 32.4,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 26.0,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-13",
+          "usual_pm25": 43.1,
+          "recommended_pm25": 40.3,
+          "oracle_pm25": 38.3,
+          "reduction_pct": 6.6,
+          "oracle_reduction_pct": 11.2,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        }
+      ]
+    },
+    "bengaluru": {
+      "city_name": "Bengaluru",
+      "days": 30,
+      "mean_exposure_reduction_pct": 25.2,
+      "median_exposure_reduction_pct": 22.2,
+      "pct_days_improved": 80.0,
+      "pct_days_avoid": 0.0,
+      "oracle_mean_reduction_pct": 40.4,
+      "mae": {
+        "model": 6.89,
+        "persistence": 7.34,
+        "seasonal_naive": 7.02
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-15",
+          "usual_pm25": 15.6,
+          "recommended_pm25": 13.1,
+          "oracle_pm25": 9.0,
+          "reduction_pct": 16.3,
+          "oracle_reduction_pct": 42.3,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-16",
+          "usual_pm25": 12.7,
+          "recommended_pm25": 9.3,
+          "oracle_pm25": 6.8,
+          "reduction_pct": 26.4,
+          "oracle_reduction_pct": 46.5,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-17",
+          "usual_pm25": 11.8,
+          "recommended_pm25": 8.4,
+          "oracle_pm25": 8.0,
+          "reduction_pct": 28.4,
+          "oracle_reduction_pct": 32.2,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-18",
+          "usual_pm25": 15.5,
+          "recommended_pm25": 8.4,
+          "oracle_pm25": 6.8,
+          "reduction_pct": 45.5,
+          "oracle_reduction_pct": 56.1,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-19",
+          "usual_pm25": 12.1,
+          "recommended_pm25": 5.8,
+          "oracle_pm25": 5.7,
+          "reduction_pct": 52.5,
+          "oracle_reduction_pct": 52.9,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-20",
+          "usual_pm25": 11.4,
+          "recommended_pm25": 11.9,
+          "oracle_pm25": 10.9,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 4.8,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-21",
+          "usual_pm25": 10.8,
+          "recommended_pm25": 10.8,
+          "oracle_pm25": 5.1,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 53.0,
+          "recommended_start": "07:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-22",
+          "usual_pm25": 6.1,
+          "recommended_pm25": 3.7,
+          "oracle_pm25": 2.8,
+          "reduction_pct": 39.3,
+          "oracle_reduction_pct": 54.1,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-23",
+          "usual_pm25": 8.6,
+          "recommended_pm25": 7.0,
+          "oracle_pm25": 2.8,
+          "reduction_pct": 18.1,
+          "oracle_reduction_pct": 67.3,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-24",
+          "usual_pm25": 8.2,
+          "recommended_pm25": 7.8,
+          "oracle_pm25": 6.9,
+          "reduction_pct": 6.1,
+          "oracle_reduction_pct": 16.4,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-25",
+          "usual_pm25": 5.7,
+          "recommended_pm25": 5.7,
+          "oracle_pm25": 3.8,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 32.7,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-26",
+          "usual_pm25": 35.0,
+          "recommended_pm25": 30.5,
+          "oracle_pm25": 25.4,
+          "reduction_pct": 13.0,
+          "oracle_reduction_pct": 27.5,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-27",
+          "usual_pm25": 27.5,
+          "recommended_pm25": 23.1,
+          "oracle_pm25": 24.4,
+          "reduction_pct": 15.8,
+          "oracle_reduction_pct": 11.3,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-28",
+          "usual_pm25": 30.1,
+          "recommended_pm25": 30.0,
+          "oracle_pm25": 22.6,
+          "reduction_pct": 0.5,
+          "oracle_reduction_pct": 25.0,
+          "recommended_start": "08:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-29",
+          "usual_pm25": 42.5,
+          "recommended_pm25": 23.0,
+          "oracle_pm25": 19.4,
+          "reduction_pct": 45.9,
+          "oracle_reduction_pct": 54.4,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-30",
+          "usual_pm25": 43.2,
+          "recommended_pm25": 37.0,
+          "oracle_pm25": 22.5,
+          "reduction_pct": 14.5,
+          "oracle_reduction_pct": 48.0,
+          "recommended_start": "17:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-10-31",
+          "usual_pm25": 50.5,
+          "recommended_pm25": 21.1,
+          "oracle_pm25": 24.2,
+          "reduction_pct": 58.3,
+          "oracle_reduction_pct": 52.1,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-01",
+          "usual_pm25": 20.1,
+          "recommended_pm25": 31.4,
+          "oracle_pm25": 16.1,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 19.9,
+          "recommended_start": "05:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-02",
+          "usual_pm25": 27.5,
+          "recommended_pm25": 27.5,
+          "oracle_pm25": 10.3,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 62.6,
+          "recommended_start": "07:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-03",
+          "usual_pm25": 25.0,
+          "recommended_pm25": 11.9,
+          "oracle_pm25": 11.4,
+          "reduction_pct": 52.2,
+          "oracle_reduction_pct": 54.4,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-04",
+          "usual_pm25": 18.0,
+          "recommended_pm25": 11.8,
+          "oracle_pm25": 15.2,
+          "reduction_pct": 34.3,
+          "oracle_reduction_pct": 15.3,
+          "recommended_start": "16:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-05",
+          "usual_pm25": 12.2,
+          "recommended_pm25": 8.8,
+          "oracle_pm25": 7.7,
+          "reduction_pct": 28.3,
+          "oracle_reduction_pct": 36.9,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-06",
+          "usual_pm25": 9.0,
+          "recommended_pm25": 4.4,
+          "oracle_pm25": 4.0,
+          "reduction_pct": 51.1,
+          "oracle_reduction_pct": 55.6,
+          "recommended_start": "10:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-07",
+          "usual_pm25": 11.0,
+          "recommended_pm25": 7.7,
+          "oracle_pm25": 6.9,
+          "reduction_pct": 30.0,
+          "oracle_reduction_pct": 37.3,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-08",
+          "usual_pm25": 13.1,
+          "recommended_pm25": 12.2,
+          "oracle_pm25": 7.9,
+          "reduction_pct": 6.5,
+          "oracle_reduction_pct": 39.5,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-09",
+          "usual_pm25": 31.9,
+          "recommended_pm25": 35.1,
+          "oracle_pm25": 27.2,
+          "reduction_pct": 0.0,
+          "oracle_reduction_pct": 14.6,
+          "recommended_start": "11:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-10",
+          "usual_pm25": 53.1,
+          "recommended_pm25": 48.5,
+          "oracle_pm25": 31.7,
+          "reduction_pct": 8.7,
+          "oracle_reduction_pct": 40.4,
+          "recommended_start": "06:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-11",
+          "usual_pm25": 46.5,
+          "recommended_pm25": 22.2,
+          "oracle_pm25": 29.1,
+          "reduction_pct": 52.2,
+          "oracle_reduction_pct": 37.4,
+          "recommended_start": "14:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-12",
+          "usual_pm25": 49.1,
+          "recommended_pm25": 21.4,
+          "oracle_pm25": 21.0,
+          "reduction_pct": 56.6,
+          "oracle_reduction_pct": 57.3,
+          "recommended_start": "15:00",
+          "verdict": "go"
+        },
+        {
+          "date": "2026-11-13",
+          "usual_pm25": 29.8,
+          "recommended_pm25": 13.6,
+          "oracle_pm25": 10.6,
+          "reduction_pct": 54.5,
+          "oracle_reduction_pct": 64.4,
+          "recommended_start": "16:00",
+          "verdict": "go"
+        }
+      ]
+    }
+  },
+  "assumptions": [
+    "CAMS modelled PM2.5 used as ground truth actuals",
+    "Simulated decision check at 05:00 IST every day with zero future knowledge",
+    "Profile: healthy_adult, Activity: exercise (60 min)",
+    "Allowed window: 05:00 to 21:00 IST, Habitual usual start: 07:00 IST",
+    "Ventilation rate: 3.0 m3/h for vigorous exercise"
+  ]
+}
