@@ -65,6 +65,19 @@ app.include_router(backtest.router, prefix="/api")
 app.include_router(methodology.router, prefix="/api")
 
 
+@app.get("/")
+def root():
+    """Root endpoint welcoming visitors and directing to interactive documentation."""
+    return {
+        "service": "BreatheWise API",
+        "description": "Personal Air-Quality Exposure Planning & Optimization Engine",
+        "status": "online",
+        "docs_url": "/docs",
+        "health_url": "/api/health",
+        "github_pages": "https://nagarwal00.github.io/breathwise-innovation-hackathon/",
+    }
+
+
 @app.get("/api/health")
 def health_check():
     """Health check endpoint indicating model status and cache volume."""

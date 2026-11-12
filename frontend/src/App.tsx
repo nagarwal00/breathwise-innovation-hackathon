@@ -44,7 +44,7 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Navbar language={language} onLanguageChange={setLanguage} />
           <Routes>
             <Route path="/" element={<LandingPage />} />
