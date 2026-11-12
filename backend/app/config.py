@@ -1,5 +1,6 @@
 """Configuration loader and application settings for BreatheWise."""
 
+import os
 from pathlib import Path
 from typing import Any, Dict, List
 import yaml
@@ -55,7 +56,7 @@ class Settings:
     """Singleton settings holder loading configuration YAML files."""
 
     TIMEZONE: str = "Asia/Kolkata"
-    CACHE_TTL_MINUTES: int = 30
+    CACHE_TTL_MINUTES: int = int(os.getenv("CACHE_TTL_MINUTES", "1440"))
     UPSTREAM_TIMEOUT_SECONDS: float = 8.0
     MAX_RETRIES: int = 2
     RETRY_BACKOFF_SECONDS: float = 0.5
